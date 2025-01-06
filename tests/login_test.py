@@ -62,7 +62,7 @@ class TestLogin():
                         home1.clickwelcome()
                         home1.clicklogout()
                         des = driver.title
-                        assert des == "OranssgeHRM"
+                        assert des == "OrangeHRM"
                 except AssertionError as error:
                         currtime=moment.now().strftime("%H-%M-%S_%d_%m_%Y")
                         screenshotName="screenshot_" +currtime
